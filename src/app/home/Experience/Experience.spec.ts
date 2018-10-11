@@ -11,10 +11,10 @@ describe('Experience.vue', () => {
   });
 
   test('renders list of experience', () => {
-    const wrapper = mount(Experience, { localVue });
+    const wrapper: any = mount(Experience, { localVue });
 
     expect(wrapper.find('ul').findAll('li').length).toBe(
-      wrapper.vm.experience.length,
+      wrapper.vm.experience.length
     );
   });
 });
