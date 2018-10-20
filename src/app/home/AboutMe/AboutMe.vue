@@ -2,10 +2,10 @@
   <div :class="[$style.aboutMe, 'featureSection']">
     <vue-grid>
       <vue-grid-row align="middle">
-        <vue-grid-item>
+        <vue-grid-item class="imageGridContainer">
           <vue-panel class="vuePanel">
             <vue-panel-body class="vuePanelBody">
-              <img src="/photo.jpg" alt="tamer mohamed" />
+              <img src="/tamer-mohamed.jpg" alt="tamer mohamed" />
             </vue-panel-body>
           </vue-panel>
         </vue-grid-item>
@@ -43,7 +43,7 @@
 </script>
 
 <style lang="scss" module>
-@import "../../shared/styles";
+@import '../../shared/styles';
 
 .aboutMe {
   display: block;
@@ -55,7 +55,7 @@
       overflow: hidden;
 
       img {
-        transform: scale(1.4, 1.5) translate(2rem, 3.5rem);
+        transform: scale(1.6) translate(0rem, 1rem);
       }
 
       ol {
@@ -73,11 +73,6 @@
     //   align-items: center;
     //   justify-content: space-between;
     // }
-
-    .vuePanel {
-      filter: grayscale(100%);
-      clip-path: polygon(60% 100%, 0 12%, 100% 1%);
-    }
   }
 
   .bio {

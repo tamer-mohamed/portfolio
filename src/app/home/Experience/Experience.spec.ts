@@ -14,7 +14,7 @@ describe('Experience.vue', () => {
     const wrapper: any = mount(Experience, { localVue });
 
     expect(wrapper.find('ul').findAll('li').length).toBe(
-      wrapper.vm.experience.length
+      wrapper.vm.experience.length,
     );
   });
 });

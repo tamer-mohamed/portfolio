@@ -10,7 +10,7 @@
               Tamer Mohamed
             </h1>
             <h2 :class="$style.subHeading">
-              Software engineer passionate about<br/> bridging the gaps between people and Tech industry.
+              Software engineer passionate about<br /> bridging the gaps between people and Tech industry.
             </h2>
           </div>
         </vue-grid-item>
@@ -68,7 +68,7 @@
 </script>
 
 <style lang="scss" module>
-@import "../../shared/styles";
+@import '../../shared/styles';
 
 .stage {
   min-height: 100vh;
