@@ -14,7 +14,7 @@
           <h3>Hello, I am Tamer</h3>
           <p> I'm currently software engineer at Zalando SE.</p>
           <p>
-            I've worked in a variety of projects on different platforms, Coming from engineering background with interest in art allows me to bridge the gaps between users and their goals, and at the meanwhile, balancing business values and good experiences.
+            I've worked in a mixture of projects in complex platforms, coming from an engineering background with enthusiasm into art enables me to bridge the gaps between users and their intentions, and at the meanwhile, balancing business values and enjoyable experiences.
           </p>
 
         </vue-grid-item>
