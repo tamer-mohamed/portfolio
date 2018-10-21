@@ -66,7 +66,7 @@
         },
         {
           "company":"KPI Communications",
-          "title": "Software engineer",
+          "title": "Fullstack developer",
           "desc":[
             'Developed fitness tracker interactive platform using Drupal and jQuery, furthermore, using Garmin SDK to track the user activities and publish fitting recipe program aligned with user goal.',
             'Also, implemented Risk management tool using Angular, Node.js and Firebase which manage and maintain project risks which have been used for international companies (i.e Siemens)',
