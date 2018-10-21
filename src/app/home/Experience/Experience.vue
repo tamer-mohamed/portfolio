@@ -48,7 +48,7 @@
    experience: [
         {
           "company":"Zalando SE",
-          "title": "Senior software engineer",
+          "title": "Senior Software Engineer",
           "desc":[
             'Implemented and Designed the UI (and it distributed service) of the experimentation platform which enables teams in Zalando to create, run and analyse their experiments in interactive web tool.',
             'Additionally, defined a UI component library with a living style guide to enable the teams to re-use UI components easily. Also, designated a composable architecture to enable different teams to contribute to the central platform with several deployment units as a definition of micro-service for the frontend.',
@@ -57,7 +57,7 @@
         },
         {
           "company":"Viasto",
-          "title": "Frontend engineer",
+          "title": "Frontend Developer",
           "desc":[
               'Implemented distributed system and plugin solution for an online interviewing tool that provides two ways for recording using WebRTC and Flash, besides that implemented services using Node.js and web sockets for operations which fulfil the business flow.',
               'Also was the core contributor in the architecture of the interviewee platform and developed the MVP for the mobile version using React Native.'
@@ -66,16 +66,16 @@
         },
         {
           "company":"KPI Communications",
-          "title": "Fullstack developer",
+          "title": "Fullstack Developer",
           "desc":[
-            'Developed fitness tracker interactive platform using Drupal and jQuery, furthermore, using Garmin SDK to track the user activities and publish fitting recipe program aligned with user goal.',
+            'Developed fitness tracker interactive platform using Drupal and jQuery, furthermore, using Garmin SDK to track the user activities and publish fitting recipe program aligned with the user goal and personalized data.',
             'Also, implemented Risk management tool using Angular, Node.js and Firebase which manage and maintain project risks which have been used for international companies (i.e Siemens)',
             'Additionally, implemented several portfolios and web-portals using (Wordpress or Drupal) and Angular.'
           ],
           "date":"2012 - 2015",
         },{
           "company": "Link Development",
-          "title": "UI developer",
+          "title": "UI Developer",
           "desc":[
             'Introduced CSS preprocessor and responsive design methodologies and techniques to existing and new applications.',
             'Accelerated bottlenecks for different teams on moving autonomous, modernised with the latest technologies and accepting challenges and applying this to Government portals (i.e. Egypt-air, Pizza Dominos) in Egypt, Qatar, Saudi Arabia.'
