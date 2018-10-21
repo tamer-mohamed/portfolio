@@ -51,7 +51,7 @@
           "title": "Senior software engineer",
           "desc":[
             'Implemented and Designed the UI (and it distributed service) of the experimentation platform which enables teams in Zalando to create, run and analyse their experiments in interactive web tool.',
-            'Additionally, defined a UI component library with a living style guide to enable the teams to re-use UI components easily. Also, designated a composable architecture to enable different teams to contribute to the central platform with several deployment units as definition micro-service for the frontend.',
+            'Additionally, defined a UI component library with a living style guide to enable the teams to re-use UI components easily. Also, designated a composable architecture to enable different teams to contribute to the central platform with several deployment units as a definition of micro-service for the frontend.',
           ],
           "date":"2016 - present",
         },
