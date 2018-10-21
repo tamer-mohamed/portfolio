@@ -47,8 +47,8 @@
       [
      { title: 'About me',
       to:{hash: 'about-me'}},
-       { title: 'Resume',
-      to:{hash:'resume'}},
+       { title: 'Experience',
+      to:{hash:'experience'}},
        { title: 'Get in touch',
       to:{hash:'get-in-touch'}}
       ],
@@ -87,10 +87,10 @@
 </script>
 
 <style lang="scss" module>
-@import "../../shared/styles";
-@import "../../shared/styles/reset";
-@import "../../shared/styles/typo";
-@import "../../shared/styles/global";
+@import '../../shared/styles';
+@import '../../shared/styles/reset';
+@import '../../shared/styles/typo';
+@import '../../shared/styles/global';
 @import url($google-font);
 
 .app {

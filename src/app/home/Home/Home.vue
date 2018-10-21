@@ -2,7 +2,7 @@
   <div :class="$style.home">
     <stage id="intro" :disable-particles="disableParticles" />
     <about-me id="about-me" />
-    <experience id="resume" />
+    <experience id="experience" />
     <get-in-touch id="get-in-touch" />
   </div>
 </template>
@@ -76,7 +76,7 @@
 </script>
 
 <style lang="scss" module>
-@import "../../shared/styles";
+@import '../../shared/styles';
 
 .home {
   :global {
