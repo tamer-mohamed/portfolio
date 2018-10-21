@@ -4,7 +4,7 @@
 
       <vue-grid-row>
         <vue-grid-item fill class="vueGridItem">
-          <h3 :class="$style.headLine">Resume</h3>
+          <h3 :class="$style.headLine">Experience</h3>
 
         </vue-grid-item>
       </vue-grid-row>
@@ -13,13 +13,9 @@
           <div :class="$style['timeline-item']" v-for="(info, index) in experience" :key="index" :dateIs="info.date">
             <h3>{{ info.company }}</h3>
             <h5>{{info.title}}</h5>
-
-            <ul v-if="Array.isArray(info.desc)">
-              <li v-for="desc in info.desc" :key="desc">
-                {{desc}}
-              </li>
-            </ul>
-            <p v-if="!Array.isArray(info.desc)">{{ info.desc }}</p>
+            <p v-for="(paragraph,index) in info.desc" :key="index">
+              {{paragraph}}
+            </p>
           </div>
         </vue-grid-item>
       </vue-grid-row>
@@ -54,10 +50,8 @@
           "company":"Zalando SE",
           "title": "Senior software engineer",
           "desc":[
-            'Defined architecture, tech stack, production infrastructure and development lifecycle for a self-service tool of A/B testing platform',
-            'Implemented living style guide for UI components library to be shared between different teams within product analytics departement',
-            'Applied clean code practices and design patterns to develop readable,maintainable and scalable code for a web application for A/B testing tool for zalando platform.',
-            'Defined principles and guidelines for UI elements with product and UX',
+            'Implemented and Designed the UI (and it distributed service) of the experimentation platform which enables teams in Zalando to create, run and analyse their experiments in interactive web tool.',
+            'Additionally, defined a UI component library with a living style guide to enable the teams to re-use UI components easily. Also, designated a composable architecture to enable different teams to contribute to the central platform with several deployment units as definition micro-service for the frontend.',
           ],
           "date":"2016 - present",
         },
@@ -65,9 +59,8 @@
           "company":"Viasto",
           "title": "Frontend engineer",
           "desc":[
-              'Implemented online interviewing tool (interviewee side) using WebRTC for online video recording and ES6 features for modular structure',
-              'Applied different design patterns for improving programming repertoire and error handling using Module, prototype and singleton patterns',
-              'Implemented PoC of mobile version of online interviewing tool using React Native',
+              'Implemented distributed system and plugin solution for an online interviewing tool that provides two ways for recording using WebRTC and Flash, besides that implemented services using Node.js and web sockets for operations which fulfil the business flow.',
+              'Also was the core contributor in the architecture of the interviewee platform and developed the MVP for the mobile version using React Native.'
           ],
           "date":"2015 - 2016",
         },
@@ -75,19 +68,17 @@
           "company":"KPI Communications",
           "title": "Software engineer",
           "desc":[
-            'Implemented different large scale applications using Drupal, wordpress or Angular V1',
-            'Improved existing applications styles to be reusable, maintainable, shareable and customizable for different applications',
-            'Applied modern webtools using Grunt, Gulp',
-            'Participated actively in product and design workshops',
-            'Defined and Implemented UI frameworks using BEM and SCSS'
+            'Developed fitness tracker interactive platform using Drupal and jQuery, furthermore, using Garmin SDK to track the user activities and publish fitting recipe program aligned with user goal.',
+            'Also, implemented Risk management tool using Angular, Node.js and Firebase which manage and maintain project risks which have been used for international companies (i.e Siemens)',
+            'Additionally, implemented several portfolios and web-portals using (Wordpress or Drupal) and Angular.'
           ],
           "date":"2012 - 2015",
         },{
           "company": "Link Development",
           "title": "UI developer",
           "desc":[
-            'Introduced CSS preprocessor and responsive design methodologies and techniques to existing and new applications',
-            'Accelerated bottlenecks for different teams by being autonomous, updated with latest technologies and accepting challenges'
+            'Introduced CSS preprocessor and responsive design methodologies and techniques to existing and new applications.',
+            'Accelerated bottlenecks for different teams on moving autonomous, modernised with the latest technologies and accepting challenges and applying this to Government portals (i.e. Egypt-air, Pizza Dominos) in Egypt, Qatar, Saudi Arabia.'
           ],
           "date":"2011 - 2012",
         },
@@ -98,7 +89,7 @@
 </script>
 
 <style lang="scss" module>
-@import "../../shared/styles";
+@import '../../shared/styles';
 
 .devEx {
   display: block;
@@ -147,14 +138,9 @@ $current-dot-color: $brand-dark-primary;
     padding-top: 0.1rem;
   }
 
-  ul {
+  p {
     list-style: circle outside;
-    padding-left: 1.3rem;
-
-    li {
-      font-size: $font-size + 0.4;
-      margin-bottom: $space-unit;
-    }
+    margin-bottom: $space-unit;
   }
 
   &::before {
@@ -180,7 +166,7 @@ $current-dot-color: $brand-dark-primary;
     position: absolute;
     left: -12px;
     border-radius: 10px;
-    content: "";
+    content: '';
     border: 2px solid $border-color;
     background: $dot-color;
   }
@@ -193,7 +179,7 @@ $current-dot-color: $brand-dark-primary;
       )
       1 100%;
 
-    border-right:0;
+    border-right: 0;
 
     padding-top: 5.8rem;
 
